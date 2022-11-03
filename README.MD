@@ -7,6 +7,15 @@ This Is Simple Java CRUD REST full API using spring-boot & mySQL
 
 make sure in your machine already installed java, maven, mysql, and some other tools and settings to running Spring Boot project. 
 
+DB: FPT_test and Table: Customers that already exist in your computer and have
+structures as below:
+
+```sh
+cust_id int AUTO_INCREMENT
+cust_name varchar(100)
+cust_address varchar(200)
+```
+
 **If the above conditions are met, you can run it with the command below**
 
 ```sh
