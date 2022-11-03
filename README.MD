@@ -58,6 +58,8 @@ $ ./mvnw spring-boot:run
 ```
 
 **Update Customer By ID**
+`Im using post method coz of delete method not allowed by tomcat.`
+
 ```
     Method  : POST
     URL     : http://localhost:8080/api/v1/customers/edit/{id}
@@ -76,8 +78,10 @@ $ ./mvnw spring-boot:run
 ```
 
 **Delete Customer By ID**
+`Im using post method coz of delete method not allowed by tomcat.`
+
 ```
-    Method  : Delete
+    Method  : POST
     URL     : http://localhost:8080/api/v1/customers/delete/{id}
     Body    : null
 ```
