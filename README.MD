@@ -58,7 +58,7 @@ $ ./mvnw spring-boot:run
 ```
 
 **Update Customer By ID**
-`Im using post method coz of delete method not allowed by tomcat.`
+`Im using post method coz of put method not allowed by tomcat.`
 
 ```
     Method  : POST
